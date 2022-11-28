@@ -778,6 +778,7 @@ img.teamImg {
 img.personImg {
     width: 115px;
     height: 115px;
+    object-fit: cover;
     border-radius: 50%;
 }
 img.rpImg {
@@ -6835,10 +6836,17 @@ h2.about-us {
   text-underline-offset: 10px;
 }
 
-div.product-image {
+.product-image {
   border-radius: 5px;
 }
 
 div.product-desc {
   border-radius: 5px;
+}
+
+input[name="Subscribe"] {
+  border: 1px solid;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-color: var(--primary);
 }
