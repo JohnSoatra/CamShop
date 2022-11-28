@@ -3,6 +3,7 @@
 --------------------------------------------------------------*/
 :root {
   --primary: rgb(26, 155, 77);
+  --secondary: white;
 }
 html, body {
   position: relative;
@@ -614,11 +615,9 @@ abbr {
   background: #151515;
   color: #fff;
 }
-.colored {
+
+.colored{
   color: var(--primary) !important;
-}
-.colored h1 {
-  color: var(--primary) !important; 
 }
 .color-primary {
   color: #151515;
@@ -6603,7 +6602,8 @@ a.magnific-popup:hover .overlay {
 /* - Page Banner Section
 --------------------------------------------------------------*/
 .site-banner{
-   background: url(images/banner.jpg) no-repeat; 
+   background: url(images/drink/banner__2.jpg) no-repeat center;
+   background-size: cover; 
    height: 567px;
 }
 .site-banner .banner-content {
@@ -6849,4 +6849,21 @@ input[name="Subscribe"] {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-color: var(--primary);
+}
+
+div.site-banner {
+  position: relative;
+}
+
+div.site-banner h1, div.site-banner h2 {
+  color: var(--secondary) !important;
+}
+
+div.site-banner span.colored{
+  color: var(--secondary) !important;
+}
+
+.breadcum-items {
+  text-decoration: underline;
+  text-decoration-color: var(--secondary);
 }
